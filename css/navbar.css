@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.navbar > .container {
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.navbar-toggler-icon {
+    margin: 3px 0;
+    width: 22px;
+    height: 2px;
+    background: #fff;
+}
+@media (min-width: 768px) {
+    .navbar-toggler {
+     display: none;
+    }
+}
+/* laptop / desktop */
+@media (min-width: 1024px) {
+    .navbar {
+        position: absolute;
+        top: 63px;
+        background: transparent;
+    }
+}

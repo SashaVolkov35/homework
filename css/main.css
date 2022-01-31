@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #999;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1380px;
+    width: 100%;
+}
+
+.container-flex {
+    display: flex;
+}
